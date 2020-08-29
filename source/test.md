@@ -17,11 +17,22 @@ Note: what is this? - got it, it is just a comment here
 
 Let's test a few things.
 
-This is a *bold*, _italic_
+This is a **bold** and _italic_
 
-Inline `code`
+Inline `code`. More `inline code`
 
 ```
   pre-formatted text
   or syntax highlighting?
+```
+
+---
+
+```c++
+  #include <iostream>
+  
+  int main() {
+    std::cout << "Hello, World" << std::endl;
+    return 0;
+  }
 ```
