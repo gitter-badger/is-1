@@ -18,7 +18,7 @@ jobs:
       - name: Install and Build
         run: |
           npm install reveal-md
-          npx reveal-md source --static _build --theme white --highlight-theme github --css assets/css/layout.css
+          npx reveal-md source --static _build --theme white --highlight-theme github --css assets/css/layout.css --static-dirs=assets
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.5.9
